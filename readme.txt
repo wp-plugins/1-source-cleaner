@@ -30,5 +30,6 @@ Upload to WordPress plugins directory /wp-content/plugins
 
 == Changelog ==
 
-1.0 Plugin License
-Thanks to  Escape HTML License: Copyright 2010  Satya Prakash
+= 1.0 =
+* Plugin License
+* Thanks to  Escape HTML License: Copyright 2010  Satya Prakash
