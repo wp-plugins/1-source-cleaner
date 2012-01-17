@@ -1,4 +1,4 @@
-=== 1 Source Cleaner 1.0===
+=== 1 Source Cleaner ===
 Plugin Name: 1 Source Cleaner
 Plugin URI: http://slackline.snapmix.jp/2012/01/16195244/
 Contributors: momizibafu
@@ -20,6 +20,13 @@ Reduce size of the source code by removing  line blake and white space.;Note: Do
 
 Upload to WordPress plugins directory /wp-content/plugins
 - Activate the plugin in WordPress plugin page
+
+== Screenshots ==
+
+1.Delete line blake.Souce code change single line.
+2.
+
+
 
 == Changelog ==
 
