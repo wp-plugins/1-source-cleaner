@@ -1,35 +1,29 @@
 === 1 Source Cleaner ===
-Plugin Name: 1 Source Cleaner
-Plugin URI: http://slackline.snapmix.jp/2012/01/16195244/
 Contributors: momizibafu
 Donate link: http://slackline.snapmix.jp/donate/
-Author:momizibafu
-Version: 1.0
-Tags: html, code, performance
-Author URI: http://slackline.snapmix.jp/
+Tags: html, performance
 Requires at least: 3.0
 Tested up to: 3.3
-Stable tag: 3.0
-This plugin is very simple.Reduce the size of the source code by removing the line blake and white space.
+Stable tag: 1.0
+
+Reduce the size of the source code by removing the line blake and white space.
 
 == Description ==
 
-Reduce size of the source code by removing  line blake and white space.;Note: Don't use html tag <pre> , please use <div> and <code> and CSS.If the tag does not appear, and decoding is performed.
+Reduce size of the source code by removing  line blake and white space.;Note: Don't use html tag "pre" , please use "div" and "code" and CSS.Include Escape HTML function,if the tag does not appear,try to re-update the entry.
 
 == Installation ==
 
-Upload to WordPress plugins directory /wp-content/plugins
-- Activate the plugin in WordPress plugin page
+1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
+1. Activate the plugin through the 'Plugins' menu in WordPress
+1. Required `<?php wp_footer()?>`in your templates
 
 == Screenshots ==
 
-1.Delete line blake.Souce code change single line.
-2.
-
-
+1. 
+2. 
 
 == Changelog ==
 
 = 1.0 =
-* Plugin License
-* Thanks to  Escape HTML License: Copyright 2010  Satya Prakash
+* Plugin release.Thanks to  Escape HTML Satya Prakash.
