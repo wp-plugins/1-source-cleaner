@@ -4,7 +4,7 @@ Plugin Name: 1 Source Cleaner
 Plugin URI: http://slackline.snapmix.jp/2012/01/16195244/
 Description: This plugin is very simple.Reduce the size of the source code by removing the line blake and white space. <strong>;Note: Don't use html tag &lt;pre&gt; , please use &lt;div&gt; and &lt;code&gt; and CSS.</strong>If the tag does not appear, and decoding is performed to update the entry.
 Author:momizibafu
-Version: 1.11
+Version: 1.1.1
 Tags: html, code, performance
 Author URI: http://slackline.snapmix.jp/
 License:GPL2
