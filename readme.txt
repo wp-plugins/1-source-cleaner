@@ -1,6 +1,5 @@
 === 1 Source Cleaner ===
 Contributors: momizibafu
-Donate link: http://slackline.snapmix.jp/donate/
 Tags: html, performance
 Requires at least: 3.0
 Tested up to: 3.3
@@ -10,7 +9,7 @@ Reduce the size of the source code by removing the line blake and white space.
 
 == Description ==
 
-Reduce size of the source code by removing  line blake and white space.;Note: Don't use html tag "pre" , please use "div" and "code" and CSS.Include Escape HTML function,if the tag does not appear,try to re-update the entry.
+Reduce size of the source code by removing  line blake and white space.;Note: Don't use html tag `<pre>` , please use `<div>` and `<code>` and CSS.Include Escape HTML function,if the tag does not appear,try to re-update the entry.
 
 == Installation ==
 
