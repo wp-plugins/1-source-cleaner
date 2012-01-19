@@ -14,7 +14,7 @@ Reduce size of the source code by removing  line blake and white space.;Note: Do
 
 == Installation ==
 
-1. Upload `plugin-name.php` to the `/wp-content/plugins/` directory
+1. Upload `1-source-cleaner`folder to the `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. Required `<?php wp_footer()?>`in your templates
 
@@ -25,6 +25,6 @@ Reduce size of the source code by removing  line blake and white space.;Note: Do
 
 == Changelog ==
 = 1.1.1 =
-for Google Adsense
+* For Google Adsense
 = 1.0 =
 * Plugin release.Thanks to  Escape HTML Satya Prakash.
