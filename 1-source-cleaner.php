@@ -4,7 +4,7 @@ Plugin Name: 1 Source Cleaner
 Plugin URI: http://slackline.snapmix.jp/2012/01/16195244/
 Description: This plugin is very simple.Reduce the size of the source code by removing the line blake and white space. <strong>;Note: Don't use html tag &lt;pre&gt; , please use &lt;div&gt; and &lt;code&gt; and CSS.</strong>If the tag does not appear, and decoding is performed to update the entry.
 Author:momizibafu
-Version: 1.0
+Version: 1.11
 Tags: html, code, performance
 Author URI: http://slackline.snapmix.jp/
 License:GPL2
@@ -22,17 +22,21 @@ Copyright 2012 Gondu Seiki (http://slackline.snapmix.jp/)
     You should have received a copy of the GNU General Public License
     along with this program; if not, write to the Free Software
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
 */
+
+
+
 
 
 class source_cleaner {
     function source_cleaner() {
-        add_action('get_header', array(&$this, 'get_header'), 1);
+        add_action('get_header', array(&$this, 'get_header'), 2);
         add_action('wp_footer', array(&$this, 'wp_footer'), 9999);
     }
 
     function replace_source_cleaner($str) {
-	$str = str_replace(array("\r\n","\r","\n","\t","   "), '', $str);
+	$str = str_replace(array("\r\n","\n","\t","   "), "", $str);
         return str_replace($search, $replace, $str);
     }
     function get_header(){
@@ -43,6 +47,9 @@ class source_cleaner {
     }
 }
 new source_cleaner();
+
+
+include "2-source-cleaner-ad.php";
 
 // Escape HTML License: Copyright 2010  Satya Prakash  (email : ws@satya-weblog.com)
 function escapeHTML($arr) {

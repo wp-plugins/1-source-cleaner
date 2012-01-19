@@ -4,7 +4,7 @@ Donate link: http://slackline.snapmix.jp/donate/
 Tags: html, performance
 Requires at least: 3.0
 Tested up to: 3.3
-Stable tag: 1.0
+Stable tag: 1.11
 
 Reduce the size of the source code by removing the line blake and white space.
 
@@ -24,6 +24,7 @@ Reduce size of the source code by removing  line blake and white space.;Note: Do
 2. 
 
 == Changelog ==
-
+= 1.11 =
+for Google Adsense
 = 1.0 =
 * Plugin release.Thanks to  Escape HTML Satya Prakash.
