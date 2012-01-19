@@ -32,7 +32,7 @@ Copyright 2012 Gondu Seiki (http://slackline.snapmix.jp/)
 class source_cleaner {
     function source_cleaner() {
         add_action('get_header', array(&$this, 'get_header'), 2);
-        add_action('wp_footer', array(&$this, 'wp_footer'), 9999);
+        add_action('shutdown', array(&$this, 'shutdown'), 9999);
     }
 
     function replace_source_cleaner($str) {
@@ -42,7 +42,7 @@ class source_cleaner {
     function get_header(){
         ob_start(array(&$this, 'replace_source_cleaner'));
     }
-    function wp_footer(){
+    function shutdown(){
         ob_end_flush();
     }
 }
